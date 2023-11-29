@@ -7,9 +7,23 @@
 <!DOCTYPE html>
 <html language>
 <head>
-</head>
     <title>Yahtzee Game</title>
+    <style>
+        /*         Style comments                     */  
+        
+    </style>
+</head>
+
+
+<body>
+
+<!-- html comment             -->
+
+
 <script>
+    //                      JavaScript functions comments        //
+    //               JavaScript functions comments              //
+</script>
 
 
 
@@ -18,5 +32,5 @@
 
 </script>
 
-    </body>
-    </html>
+</body>
+</html>
