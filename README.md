@@ -68,6 +68,8 @@ function hold(i)
 <tr> <td class="a"> Total </td> <td class="b"> </td> </tr>
 
 </table>
+</head>
+</body>
 
 
  
