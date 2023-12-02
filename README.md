@@ -12,7 +12,7 @@
 <Script language="JavaScript">
 <!--
 var v = new Array(0,0,0,0);
-var h = new Array(false,false,false,false,false); // false means not clicked.
+var h = new Array(false,false,false,false,false); // false means not clickable.
 var f = new Array(0,0,0,0,0,0,0);
 
 function roll()
