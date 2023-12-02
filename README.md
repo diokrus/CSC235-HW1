@@ -31,16 +31,16 @@ function roll()
 }
 function hold(i)
 {
-      d=document.getElementById("d"+i);
-      h[i]=!h[i];
-      if(h[i]) { d.src="pix/diceX"+v[i]+" .gif"; }
-      else     { d.src="pix/diceX"+v[i]+" .gif"; }
-    }
-    function roll()
-    {
-      d=document.getElementById("s"+1);
-      d.innerHTML=f[i]*i;
-    }
+  d=document.getElementById("d"+i);
+  h[i]=!h[i];
+  if(h[i]) { d.src="pix/diceX"+v[i]+" .gif"; }
+  else     { d.src="pix/diceX"+v[i]+" .gif"; }
+}
+function roll()
+{
+  d=document.getElementById("s"+1);
+  d.innerHTML=f[i]*i;
+}
 //-->
 </script>
 
