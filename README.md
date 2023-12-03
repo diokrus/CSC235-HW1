@@ -26,8 +26,7 @@ function roll()
   d.src"pix/dice"+v[i]+" .gif";
   }
   f[v[i]]++;
-}
-    
+}    
 }
 function hold(i)
 {
