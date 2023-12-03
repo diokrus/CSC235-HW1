@@ -21,7 +21,7 @@ function roll()
  for(var i=0;i<5;i++)
 {
   if(!h[i]){
-  d=document.getElementById("d"+1);
+  d=document.getElementById("d"+i);
   v[i]=math.floor(6*math.random())+1;
   d.src"pix/dice"+v[i]+" .gif";
   }
@@ -46,11 +46,11 @@ function src(i)
 
 <h1>Yahtzee </h1>
 <div Class="a">
-      <img id="d0" src="pix/dice0.gif">
-      <img id="d1" src="pix/dice0.gif">
-      <img id="d2" src="pix/dice0.gif">
-      <img id="d3" src="pix/dice0.gif">
-      <img id="d4" src="pix/dice0.gif"> </div>
+      <img id="d0" onClick="hold(0)" src="pix/dice0.gif">
+      <img id="d1" onClick="hold(1)" src="pix/dice0.gif">
+      <img id="d2" onClick="hold(2)" src="pix/dice0.gif">
+      <img id="d3" onClick="hold(3)" src="pix/dice0.gif">
+      <img id="d4" onClick="hold(4)" src="pix/dice0.gif"> </div>
 <br><br>
 <table class="t" >
 <tr> <td class="a"> 1's </td>
@@ -60,7 +60,7 @@ function src(i)
 <tr> <td class="a"> 3's </td> <td> <td class="b"> </td> </tr>
 <tr> <td class="a"> 4's </td> <td> <td class="b"> </td> </tr>
 <tr> <td class="a"> 5's </td> <td> <td class="b"> </td> </tr>
-<tr> <td class="a"> 6's </td> <td> <td class="b"> </td> </tr>
+<tr> <td class="a"> 6's </td> <td> <td class="b"> </td> 
        <td class="c" rowspan="5" > <button class="c"> New game </button> </td> </tr>
 <tr> <td class="a"> 3 of a kind </td> <td class="b"> </td> </tr>
 <tr> <td class="a"> 4 of a kind </td> <td class="b"> </td> </tr>
@@ -69,9 +69,7 @@ function src(i)
 
 </table>
 
-</head>
 
-</body>
 
 
  
