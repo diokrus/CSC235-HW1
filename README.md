@@ -23,7 +23,7 @@ function roll()
   if(!h[i]){
   d=document.getElementById("d"+1);
   v[i]=math.floor(6*math.random())+1;
-  d.sc"pix/dice"+v[i]+" .gif";
+  d.src"pix/dice"+v[i]+" .gif";
   }
   f[v[i]]++;
 }
@@ -34,11 +34,11 @@ function hold(i)
   d=document.getElementById("d"+i);
   h[i]=!h[i];
   if(h[i]) { d.src="pix/diceX"+v[i]+" .gif"; }
-  else     { d.src="pix/diceX"+v[i]+" .gif"; }
+  else     { d.src="pix/dice" +v[i]+" .gif"; }
 }
-function roll()
+function src(i)
 {
-  d=document.getElementById("s"+1);
+  d=document.getElementById("s"+i);
   d.innerHTML=f[i]*i;
 }
 //-->
