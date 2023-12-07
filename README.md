@@ -5,10 +5,25 @@
 -->
 
 <!DOCTYPE html>
-<html language>
-<head>
-<body>
+<html>
+<head> <title> Yahtzee </title>
+<style type="text/css">
+<!--
 
+h1 {text-allgn:center;}
+div.a {text-allgn;center;}
+table.t {margin-left:auto;margin-right:auto;}
+
+td.b {border:2px #efefef inset; bacground-color: #AEAFFF;Width:2em;}
+td.c {text-allgn:right;width:100px;}
+
+button.b {color:#F5E6E3;background-color: #5F00CA;margin-right:20px;}
+-->
+</style>
+</head>
+
+<body>
+ 
 <Script language="JavaScript">
 <!--
 var v = new Array(0,0,0,0);
