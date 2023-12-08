@@ -17,8 +17,7 @@ table.t {margin-left:auto;margin-right:auto;}
 
 td.b { border:2px #efefef inset; bacground-color: #AEAFFF;width:2em;}
 td.c { text-align:right;width:100px;}
-
-button.b {color:#F5E6E3;background-color: #5F00CA;margin-right:20px;}
+button.b { color:#F5E6E3;background-color: #5F00CA;margin-right:20px;}
 -->
 </style>
 </head>
